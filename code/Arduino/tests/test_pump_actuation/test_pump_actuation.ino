@@ -18,10 +18,10 @@
 const int delay_time = 1000;
 int pump_dutycycle = 190; // from 0 (fully OFF) to 255 (fully ON) (should be in the lower half if running nonstop)
 
-const int pump_pins[4]= {10,11,8,9};
+const int pump_pins[4]= {10,11,6,9};
 const int positivepump_pin1= 10;
 const int positivepump_pin2= 11;
-const int negativepump_pin1= 8;
+const int negativepump_pin1= 6;
 const int negativepump_pin2= 9;
 
 void setup() {
