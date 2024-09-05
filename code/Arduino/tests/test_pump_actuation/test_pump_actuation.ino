@@ -54,10 +54,10 @@ void loop() {
   delay(delay_time);      
   
   // test run of both pumps together
-  digitalWrite(positivepump_pin1, pump_dutycycle);
-  digitalWrite(negativepump_pin1, pump_dutycycle);
-  delay(delay_time);
-  digitalWrite(positivepump_pin1, 0);
-  digitalWrite(negativepump_pin1, 0);
-  delay(delay_time);                     
+  //digitalWrite(positivepump_pin1, pump_dutycycle);
+  //digitalWrite(negativepump_pin1, pump_dutycycle);
+  //delay(delay_time);
+  //digitalWrite(positivepump_pin1, 0);
+  //digitalWrite(negativepump_pin1, 0);
+  //delay(delay_time);                     
 }
